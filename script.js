@@ -47,7 +47,7 @@ function toggleMenu2() {
         button.style.color = '#ffffff';
     } else {
         menu.classList.remove('show-menu');
-        button.innerText = 'Reports';
+        button.innerText = '보고서';
         button.style.backgroundColor = '';
         button.style.color = '';
     }

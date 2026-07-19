@@ -21,6 +21,7 @@ LabPath 약학 클럽의 공식 리포지토리에 오신 건 환영합니다! L
 ## 📞 연락하기
  📧 [제안하기](https://forms.gle/QFLKKqCmGUkW45Lx8)
  <br>
- 📧 [협업 요청하기](https://forms.gle/pVGjv6bArup8sfQZ7)
+ 📧 [협업 요청하기](https://forms.gle/pVGjv6bArup8sfQZ7) 
+ <br>
  🔗 [👉 홈페이지를 보시려면 여기를 클릭해 주세요! 👈](https://labpathpharmacy.github.io/kr/)
 </div>

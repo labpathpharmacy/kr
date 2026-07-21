@@ -271,3 +271,7 @@ p{
     background-color: #a3ccc4;
     color:#727272
 }
+.end:hover {
+    background: #727272;
+    color:white;
+}

@@ -269,9 +269,9 @@ p{
 }
 .lang:hover {
     background-color: #a3ccc4;
-    color:#727272
+    color: #727272;
 }
 .end:hover {
-    background-color: #727272;
-    color:white;
+    background-color: #a3ccc4;
+    color: #727272;
 }

@@ -14,23 +14,15 @@ function closeAllSubMenus() {
         mb.style.color = '';
     }
 }
-function toggleMenu() {
-    event.preventDefault();
-    event.stopPropagation();
-    const menu = document.getElementById('ddM');
-    const button = document.getElementById('mb');
-    if (!menu.classList.contains('show-menu')) {
+function toggleMenu3() {
+    event.preventDefault(); 
+    const menu = document.querySelector('.mc3');
+    const button = document.getElementById('mb3');
+    if (menu.classList.contains('show-menu')) {
         closeAllSubMenus();
-        menu.classList.add('show-menu');
-        button.innerText = button.getAttribute('data-text-open');
-        button.style.backgroundColor = '#333333';
-        button.style.color = '#ffffff';
-    } else {
-        menu.classList.remove('show-menu');
-        button.innerText = '문의하기';
-        button.style.backgroundColor = '';
-        button.style.color = '';
     }
+    menu.classList.toggle('show-menu');
+    toggleButtonText(button,'☰ 메뉴');
 }
 function toggleButtonText(button, originalText) {
     const openText = button.getAttribute('data-text-open');

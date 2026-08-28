@@ -24,14 +24,6 @@ function toggleMenu3() {
     menu.classList.toggle('show-menu');
     toggleButtonText(button,'☰ 메뉴');
 }
-function toggleButtonText(button, originalText) {
-    const openText = button.getAttribute('data-text-open');
-    if (button.innerText === originalText) {
-        button.innerText = openText;
-    } else {
-        button.innerText = originalText;
-    }
-}
 window.onclick = function(event) {
     if (!event.target.matches('.bc button')) {
         const menu3 = document.querySelector('.mc3');

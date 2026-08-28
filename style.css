@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    user-select: none;
 }
 body {
     font-family: 'Noto Sans KR', sans-serif;
@@ -269,9 +268,32 @@ p{
 }
 .lang:hover {
     background-color: #a3ccc4;
-    color: #727272;
+    color:#727272
 }
-.end:hover {
-    background-color: #a3ccc4;
-    color: #727272;
+.report-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn3 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    color: black;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    height: 45px;
+    width: 90%;
+    max-width: 250px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+.btn3:hover {
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    text-decoration: underline;
 }
